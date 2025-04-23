@@ -182,3 +182,60 @@ footer {
 .social-icon:hover {
   transform: scale(1.2);
 }
+.banner-texto {
+  background: linear-gradient(to right, #222, #111);
+  text-align: center;
+  padding: 30px 20px;
+  color: #fff;
+}
+
+.banner-texto h2 {
+  font-size: 2em;
+  margin-bottom: 10px;
+  color: #e91e63;
+}
+
+.carrossel {
+  margin: 30px auto;
+  max-width: 600px;
+  overflow: hidden;
+  border-radius: 10px;
+}
+
+.carousel-container {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+}
+
+.carousel-slide {
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+}
+
+.carousel-slide img {
+  width: 100%;
+  height: auto;
+}
+
+.carousel-btn {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: rgba(0,0,0,0.6);
+  border: none;
+  color: white;
+  font-size: 2em;
+  cursor: pointer;
+  z-index: 10;
+  padding: 0 10px;
+  border-radius: 5px;
+}
+
+.carousel-btn.prev {
+  left: 10px;
+}
+
+.carousel-btn.next {
+  right: 10px;
+}
