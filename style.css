@@ -239,3 +239,50 @@ footer {
 .carousel-btn.next {
   right: 10px;
 }
+.produtos {
+  padding: 40px 20px;
+  background-color: #111;
+  color: #fff;
+  text-align: center;
+}
+
+.produtos h2 {
+  font-size: 2.5em;
+  margin-bottom: 30px;
+  color: #e91e63;
+}
+
+.lista-produtos {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+}
+
+.produto {
+  background-color: #222;
+  padding: 20px;
+  border-radius: 10px;
+  width: 200px;
+  transition: transform 0.3s;
+}
+
+.produto:hover {
+  transform: scale(1.05);
+}
+
+.produto img {
+  width: 100%;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+.produto h3 {
+  font-size: 1.2em;
+  margin-bottom: 5px;
+}
+
+.produto p {
+  font-size: 1.1em;
+  color: #ccc;
+}
